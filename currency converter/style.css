@@ -7,12 +7,60 @@ body{
     justify-content: center;
     align-items: center;
     min-height:100vh;
-    background-color: blueviolet;
+    background-color: rgb(172, 196, 99);
 
 }
 .container{
     background-color: #fff;
      padding: 1rem;
     border-radius: 1rem;
-    width: 40vh;
+    width: 55vh;
+    height: 75vh;
+}
+form{
+    margin:2rem 0 1rem  0;
+}
+ form,select,input,button{
+    border:none;
+    outline:none;
+    border-radius: 0.5rem;
+    width:100%;
+} 
+form input{
+    border: 1px solid #beb9b9;
+    height: 3rem;
+    font-size: 0.75rem;
+    padding-left: 0.5rem;
+}
+.dropdown{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.select-flage img{
+    max-width: 3rem;
+}
+.select-flage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:6rem;
+    border-radius : 0.5rem;
+    border: 1px solid #beb9b9;               
+}
+.select-flage select{
+    font: 1em ;
+    width: auto;
+}
+.msg{
+    margin: 1rem 0 1rem 0;
+}
+
+button{
+    height: 2rem;
+    background-color:#cb3e3e;
+    color: #f1ecec;
+    font-size: 1rem;
+
 }
